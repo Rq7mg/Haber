@@ -4,11 +4,11 @@
   "repository": "https://github.com/kullaniciadi/repo",
   "env": {
     "BOT_TOKEN": {
-      "description": "Telegram Bot Token",
+      "description": "6888677441:AAEQMucVBX-V1cNxUFOZO0iEcjzEV7fuoi0",
       "required": true
     },
     "CHANNEL_ID": {
-      "description": "Telegram Kanal ID",
+      "description": "-1003775076802",
       "required": true
     }
   },
