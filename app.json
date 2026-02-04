@@ -1,0 +1,20 @@
+{
+  "name": "Telegram Haber Botu",
+  "description": "RSS ile otomatik haber paylaşan Telegram botu",
+  "repository": "https://github.com/kullaniciadi/repo",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "description": "Telegram Kanal ID",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  }
+}
